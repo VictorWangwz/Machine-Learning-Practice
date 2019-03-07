@@ -1,3 +1,3 @@
 # Machine_Learning_Practice
 
-1. Gibbs sampling
+1. Gibbs sampling for multivariate gaussian.
