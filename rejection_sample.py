@@ -2,6 +2,9 @@ __author__ = ' Zhen Wang'
 import numpy as np
 import matplotlib.pyplot as plt
 
+# When the prob p(x) is too complex that it is hard to directly sample with this prob
+# Try rejection sample
+
 
 def sample_prob():
     return np.random.rand() * 6
@@ -16,8 +19,11 @@ def rejection_sample(iter=100000):
     k = 1
     for i in range(iter):
         accept = False
+        # If the random sample is under the line of the target
+        # accept it, otherwiser reject it.
         while not accept:
             x = sample_prob()
+            # evenly distribution above the target one
             u = np.random.rand() * k * 6
             if u < get_target_prob(x):
                 samples[i] = x
