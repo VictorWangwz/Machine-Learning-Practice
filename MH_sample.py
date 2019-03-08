@@ -3,6 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy.stats import norm
 
+
 class MCMC:
     def __init__(self):
         self.p0 = np.array([[0.1, 0.6, 0.3, 0.0, 0.0, 0.0, 0.0]])

@@ -2,3 +2,4 @@
 
 1. Gibbs sampling for multivariate gaussian.
 2. Rejection sampling for gaussian mixuture.
+3. M-H sampling for gaussian.
