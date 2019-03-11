@@ -75,4 +75,4 @@ class MCMC:
 
 if __name__  == "__main__":
     sampler = MCMC()
-    sampler.M_H_sample()
+    sampler.get_pi_x()
