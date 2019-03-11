@@ -20,7 +20,6 @@ class ViterbiDecoding:
 
         for i in range(1, n_o):
             p = p_new * self.pt[index, :] * self.pe[:, self.o[i]]
-            print(p)
             index = np.argmax(p)
             p_new = np.max(p)
             self.path.append(index)

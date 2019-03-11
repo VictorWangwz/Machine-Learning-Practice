@@ -5,3 +5,4 @@
 3. M-H sampling for gaussian.
 4. CK equation to compute marginal probability.
 5. Viterbi decoding for Hidden Markov Model.
+6. Viterbi decoding for Markov Chain
