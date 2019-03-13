@@ -15,11 +15,12 @@ class MarginalCK:
         p = np.zeros((t, d))
         for i in range(d):
             p0 = np.dot(p0, self.pt)
-            p[:, i]  = p0
+            p[:, i] = p0
         x = np.arange(d)
         for i in range(t):
             plt.plot(x, p[i], label='value1')
         plt.show()
+        print(p)
 
 
 

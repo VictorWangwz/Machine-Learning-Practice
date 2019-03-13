@@ -9,7 +9,7 @@ class ViterbiForMarkov:
         self.p0 = p0
         self.pt = pt
 
-    def decode(self, d=50):
+    def decode(self, d=500):
         p0 = self.p0
         t = self.p0.shape[0]
         p = np.zeros((t, d))
