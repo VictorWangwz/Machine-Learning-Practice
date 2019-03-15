@@ -20,8 +20,7 @@ class MarginalCK:
         for i in range(t):
             plt.plot(x, p[i], label='value1')
         plt.show()
-        print(p)
-
+        return p
 
 
 if __name__ == "__main__":

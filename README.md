@@ -7,4 +7,4 @@
 5. Ancestral sampling to sample and monte carlo to compute marginal probability.
 6. Viterbi decoding for Hidden Markov Model.
 7. Viterbi decoding for Markov Chain
-
+8. Backward sampling.
