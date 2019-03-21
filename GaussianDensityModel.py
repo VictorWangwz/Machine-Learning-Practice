@@ -1,11 +1,13 @@
 __author__ = ' Zhen Wang'
+from math import exp, log, pi
+
 import h5py
 import numpy as np
-from math import exp, log, pi
-from numpy.linalg import multi_dot
+from matplotlib import pyplot as plt
 from numpy import linalg as LA
 from numpy.linalg import inv
-from matplotlib import pyplot as plt
+from numpy.linalg import multi_dot
+
 
 class GDM:
     def __init__(self, x):
