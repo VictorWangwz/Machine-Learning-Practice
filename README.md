@@ -8,3 +8,4 @@
 6. Viterbi decoding for Hidden Markov Model.
 7. Viterbi decoding for Markov Chain
 8. Backward sampling.
+9. Gaussian Density Model.
